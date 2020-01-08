@@ -9,7 +9,7 @@ cd javascript/
 ```
 
 ```
-git clone git@github.com:ThomasErhel/ml5-boilerplate-0.4.3-with-p5.git
+git clone git@github.com:ThomasErhel/ml5-sentiment.git
 ```
 
 ```
