@@ -1,6 +1,6 @@
 # ml5-sentiment: with p5.js
 
-Interactive text sentiment analysis with score and result
+☯️ Interactive text sentiment analysis with score and result 🌟
 
 # getting started
 
