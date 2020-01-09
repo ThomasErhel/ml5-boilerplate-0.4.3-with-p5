@@ -14,7 +14,7 @@ function setup() {
   inputBox = createInput(
     "p5.js is a community interested in exploring the creation of art and design with technology. We are a community of, and in solidarity with, people from every gender identity and expression, sexual orientation, race, ethnicity, language, neuro-type, size, ability, class, religion, culture, subculture, political opinion, age, skill level, occupation, and background. We acknowledge that not everyone has the time, financial means, or capacity to actively participate, but we recognize and encourage involvement of all kinds. We facilitate and foster access and empowerment. We are all learners. We like these hashtags: #noCodeSnobs (because we value community over efficiency), #newKidLove (because we all started somewhere), #unassumeCore (because we don't assume knowledge), and #BlackLivesMatter (because of course)."
   );
-  inputBox.attribute("size", "64");
+  inputBox.attribute("size", "75");
   submitBtn = createButton("🚀 submit");
   sentimentResult = createP("🧠 sentiment score:");
 
@@ -31,12 +31,18 @@ function getSentiment() {
 
   // display sentiment result on html page
   sentimentResult.html("🧠 Sentiment score: " + prediction.score);
-
   // display visual sentiment result
-  if (prediction.score > 0.5) {
-    createP("💖 Sentiment result: positive 👍");
+  if ((prediction.score = 0 > 0.2)) {
+    createP("🖤 Sentiment result: extremely negative 🌪️");
+  } else if ((prediction.score = 0.2 > 0.4)) {
+    createP("💜 Sentiment result: super negative 🌧️");
+  } else if ((prediction.score = 0.4 > 0.6)) {
+    createP("💚 Sentiment result: neutral 🌓");
+  } else if ((prediction.score = 0.4 > 0.8)) {
+    createP("💙 Sentiment result: super positive 🌟");
   } else {
-    createP("🖤 Sentiment result: negative 👎");
+    prediction.score = 0.8 > 1;
+    createP("💖 Sentiment result: extremely positive 🌈");
   }
 }
 
