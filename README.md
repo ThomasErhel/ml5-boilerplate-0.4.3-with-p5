@@ -1,6 +1,6 @@
-# ml5-boilerplate: with p5.js
+# ml5-sentiment: with p5.js
 
-A basic html, css, javascript boilerplate for working building a project with ml5.js
+Interactive text sentiment analysis with score and result
 
 # getting started
 
@@ -13,5 +13,11 @@ git clone git@github.com:ThomasErhel/ml5-sentiment.git
 ```
 
 ```
+cd ml5-sentiment/
+```
+
+```
 python -m SimpleHTTPServer 8081
 ```
+
+http://localhost:8081
