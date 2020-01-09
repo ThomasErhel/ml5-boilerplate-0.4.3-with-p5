@@ -33,9 +33,9 @@ function getSentiment() {
   sentimentResult.html("🧠 Sentiment score: " + prediction.score);
   // display visual sentiment result
   if (prediction.score > 0.5) {
-    createP("💖🌟🌈 Sentiment result: positive 👍");
+    createP("💖🌟🌈 positive 👍");
   } else {
-    createP("🖤🌧️🌪️ Sentiment result: negative 👎");
+    createP("🖤🌧️🌪️ negative 👎");
   }
 }
 
